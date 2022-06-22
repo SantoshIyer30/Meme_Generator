@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.navbar{
+  display: flex;
+  background: linear-gradient(
+    90deg, #672280 1.18%, #A626D3 100%
+    );
+    align-items: center;
+}
+
+.navbar-logo{
+  width: 60px;
+  height: 60px;
+  margin: 15px;
+  margin-left: 25px;
+}
+
+.navbar>h2{
+  color: white;
+}
+
+
+.type{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.textbox{
+  height: 25px;
+  width: 40%;
+  margin: 15px;
+}
+
+.submit-button{
+  width: 80%;
+  height: 35px;
+  background: linear-gradient(
+    90deg, #672280 1.18%, #A626D3 100%
+    );
+    color: white;
+    margin: 0;
+    border: 0;
+    border-radius: 3px;
+}
+
+.meme-image{
+  width: 80%;
+}
